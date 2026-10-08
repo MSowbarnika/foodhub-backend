@@ -28,6 +28,7 @@ Java 17, Spring Boot, Spring Data JPA, MySQL, Maven, Docker
 | DELETE | `/api/foods/{id}` | Admin | Delete food |
 | GET | `/api/coupons/{code}` | Public | Validate coupon |
 | POST | `/api/orders` | User | Place order |
+| GET | `/api/orders` | User | View my orders |
 | GET | `/api/admin/orders` | Admin | View all orders |
 | PUT | `/api/admin/orders/{id}/status` | Admin | Update order status |
 
